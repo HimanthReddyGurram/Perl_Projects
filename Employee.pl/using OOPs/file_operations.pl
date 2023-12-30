@@ -6,7 +6,7 @@ use Data::Dumper;
 use feature qw/ say /;
 # use lib "<path>";
 
-# To run this file - after going to the file directory, using the following command : " perl -I ./ perl_operations.pl "
+# To run this file - after going to the file directory, using the following command : " perl -I ./ file_operations.pl "
 
 open(Data, "<", "employee_records.txt") or die "Couldn't open file data.txt !";
 # print <Data>;
